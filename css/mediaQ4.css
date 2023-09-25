@@ -1,0 +1,128 @@
+/* Media Quries */
+@media only screen and (max-width: 669px) {
+    .greet-section p {
+        font-size: 2rem;
+    }
+
+    .button-section p {
+        font-size: 1rem;
+    }
+
+    .button-section .slinkit-button {
+        font-size: 1rem;
+        padding: .5rem 4rem .5rem 4rem;
+        border: none;
+        margin-top: .7rem;
+        margin-bottom: 30px;
+    }
+
+    /* .navbar .logo {
+        width: 5rem;
+        height: auto;
+        margin-left: 2vw;
+    } */
+
+
+
+}
+
+
+/* Media Quries */
+@media only screen and (max-width: 750px) {
+
+    .slink-section .heading p {
+        margin-bottom: 3rem;
+        color: #212121;
+        font-size: 2.3rem;
+    }
+
+    .instruction p {
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .input-section .text-box {
+        font-size: 1rem;
+        padding: 8px;
+        width: 17rem;
+        height: 2rem;
+    }
+
+    .text-box::placeholder {
+        padding-left: .3rem;
+        font-size: 1rem;
+    }
+
+    .input-section .submit-btn {
+        font-size: 1.1rem;
+        padding: 6px .8rem;
+        font-weight: 600;
+    }
+
+    .bottom-txt p {
+        /* background-color: darkgoldenrod; */
+        font-size: .7rem;
+        color: #4e4e4e;
+        font-family: 'Inter', sans-serif;
+        margin-top: 4rem;
+    }
+
+    .navbar .logo {
+        width: 5rem;
+        height: auto;
+        margin-left: 2vw;
+    }
+
+    .ready-link input{
+        width: 15rem;
+        height: 1.5rem;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:930px) {
+
+    /* #sidebar.show {
+        display: block;
+    } */
+    .profile p {
+        display: none;
+    }
+
+    .content-container {
+        margin-left: 0rem;
+    }
+
+    .pro-menu {
+        display: flex;
+
+    }
+
+    #sidebar {
+        left: -240px;
+    }
+
+    #sidebar-toggle {
+        display: block;
+        height: 2rem;
+        width: 4rem;
+    }
+
+    #sidebar-toggle i {
+        font-size: larger;
+        font-weight: bolder;
+
+
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+
+}

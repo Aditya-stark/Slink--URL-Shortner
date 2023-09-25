@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slink- URL Shortner</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaQ.css ">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/mediaQ2.css">
 
     <script src="https://kit.fontawesome.com/cf5d67d7cd.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -53,10 +53,10 @@
 
             <ul class="option">
                 <a href="index.html">
-                    <li class="tab-selected"><i class="ri-home-2-line"></i>Home</li>
+                    <li class="tabs"><i class="ri-home-2-line"></i>Home</li>
                 </a>
                 <a href="previousSlinks.html">
-                    <li class="tabs"><i class="ri-link"></i>Previous slinks</li>
+                    <li class="tab-selected"><i class="ri-link"></i>Previous slinks</li>
                 </a>
                 <li class="tabs"><i class="ri-settings-3-line"></i>Setting</li>
             </ul>
@@ -75,56 +75,33 @@
     </div>
 
     <div class="content-container">
-        <div class="content">
-            <div class="greet-section">
-                <p>Hey, <span>Username</span></p>
-            </div>
-            <div class="button-section">
-                <p>Ready to Shorten?</p>
-                <a href="slink.html">
-                    <button type="button" class="slinkit-button">Slink it...</button></a>
-            </div>
+
+        <!-- Previous Slink Table Section -->
+        <div class="pre-slink-section">
+
+            <h2 class="heading">Your previous <span>Slinks</span></h2>
+
+            <table class="table" border="1">
+                <thead>
+                    <tr>
+                        <th>Sr. No</th>
+                        <th>Date</th>
+                        <th>Original Link</th>
+                        <th>Shortened Link</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Insert data rows here -->
+                </tbody>
+            </table>
+
         </div>
 
-        <div class="content-buttom">
-            <div class="content-buttom-head">
-                <p>Why slink</p>
-            </div>
-            <div class="feature-grid">
-                <div class="box"><i class="ri-thumb-up-line"></i>
-                    <p class="feature-p">Easy</p>
-                    <p class="feature-detail">Slink is easy and fast, enter the long link to get your shortened link
-                    </p>
-                </div>
 
-                <div class="box"><i class="ri-global-line"></i>
-                    <p class="feature-p">Shortened</p>
-                    <p class="feature-detail">Use any link, no matter what size, Slink always shortens</p>
-                </div>
 
-                <div class="box"><i class="ri-shield-check-line"></i>
-                    <p class="feature-p">Secure</p>
-                    <p class="feature-detail">It is fast and secure, our service keeps your all links safe</p>
-                </div>
 
-                <div class="box"><i class="ri-stackshare-line"></i>
-                    <p class="feature-p">Share</p>
-                    <p class="feature-detail">Share your shortened link to anyone and it still work</p>
-                </div>
-
-                <div class="box"><i class="ri-history-line"></i>
-                    <p class="feature-p">Records</p>
-                    <p class="feature-detail">Keep records of your all previous shortened links in previous slinks
-                        section</p>
-                </div>
-
-                <div class="box"><i class="ri-device-line"></i>
-                    <p class="feature-p">Devices</p>
-                    <p class="feature-detail">Compatible with smartphones, tablets and desktop</p>
-                </div>
-            </div>
-        </div>
-
+        <!-- Footer -->
         <footer class="footer">
 
             <footer class="footer-s1">
@@ -162,7 +139,6 @@
 
 
     </div>
-
 
     <script src="js/script.js"></script>
 </body>
