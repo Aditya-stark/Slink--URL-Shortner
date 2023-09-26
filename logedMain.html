@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slink- URL Shortner</title>
-    <link rel="stylesheet" href="css/indexStyle.css">
-    <link rel="stylesheet" href="css/indexmediaQ.css ">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQ.css ">
 
     <script src="https://kit.fontawesome.com/cf5d67d7cd.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -24,8 +24,12 @@
         </a>
 
         <div class="pro-menu">
-            <a href="signin.html">
-                <button type="button" class="signinBtn">Sign in</button>
+
+            <a href="#">
+                <div class="profile">
+                    <i class="ri-user-line" style="color: #000;"></i>
+                    <p>User-Name</p>
+                </div>
             </a>
 
             <button id="sidebar-toggle"><i class="ri-menu-3-line"></i>Menu</button>
@@ -51,9 +55,10 @@
                 <a href="index.html">
                     <li class="tab-selected"><i class="ri-home-2-line"></i>Home</li>
                 </a>
-                <a href="signin.html">
-                    <li class="tabs"><i class="ri-login-box-line"></i>Sign in</li>
+                <a href="previousSlinks.html">
+                    <li class="tabs"><i class="ri-link"></i>Previous slinks</li>
                 </a>
+                <!-- <li class="tabs"><i class="ri-settings-3-line"></i>Setting</li> -->
             </ul>
         </div>
         <div class="emptydiv">
@@ -62,6 +67,11 @@
         <!-- <div class="sidebar-bottom">
             
         </div> -->
+        <button class="sign-out">
+            <a href="signin.html" style="text-decoration: none;">
+                <i class="ri-logout-box-r-line"></i>Sign out
+            </a>
+        </button>
     </div>
 
     <div class="content-container">

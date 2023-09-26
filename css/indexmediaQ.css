@@ -1,0 +1,77 @@
+/* Media Quries */
+@media only screen and (max-width: 669px) {
+    .greet-section p {
+        font-size: 2rem;
+    }
+
+    .button-section p {
+        font-size: 1rem;
+    }
+
+    .button-section .slinkit-button {
+        font-size: 1rem;
+        padding: .5rem 4rem .5rem 4rem;
+        border: none;
+        margin-top: .7rem;
+        margin-bottom: 30px;
+    }
+
+    .navbar .logo {
+        width: 5rem;
+        height: auto;
+        margin-left: 2vw;
+    }
+
+    .signinBtn {
+        background-color: #cfcfcf;
+        border-radius: 5px;
+        font-size: .7rem;
+        padding: .5rem 1rem;
+        font-family: 'Inter', sans-serif;
+    }
+
+
+
+}
+
+@media only screen and (max-width:930px) {
+
+    /* #sidebar.show {
+        display: block;
+    } */
+    .profile p {
+        display: none;
+    }
+
+    .content-container {
+        margin-left: 0rem;
+    }
+
+    .pro-menu {
+        display: flex;
+
+    }
+
+    #sidebar {
+        left: -240px;
+    }
+
+    #sidebar-toggle {
+        display: block;
+        height: 2rem;
+        width: 4rem;
+    }
+
+    #sidebar-toggle i {
+        font-size: larger;
+        font-weight: bolder;
+
+
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+
+}
